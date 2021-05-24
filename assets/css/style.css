@@ -1,0 +1,352 @@
+
+/*Estilo geral*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-prod img, .intro-prod-2 img {
+    display: block;
+    max-width: 100%;
+}
+
+/*Header*/
+
+.header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1;
+}
+
+.logo{
+    width: 165px;
+}
+
+.list {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.list ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.list ul li a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+.list ul li a:hover {
+    color: #769C90;
+}
+
+
+/*Introducao*/
+
+
+.intro {
+    margin-top: 100px;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.intro {
+    min-width: 100%;
+    background: url(/assets/img/bg.png) no-repeat center;
+    background-size: cover;
+    align-items: center;
+}
+
+/*Intro pt2*/
+
+.intro-prod {
+    width: 100%;
+    height: 765px;
+    margin-top: -14px;
+    background: #E8E1DF;
+}
+
+.intro-prod h2 {
+    color: #769C90;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: .1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.big-pic {
+    margin-top: 10px;
+}
+
+/*Sobre*/
+
+.sobre {
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 765px;
+    background: black;
+}
+
+.sobre h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: .1em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.shadow {
+    width: 70.9%;
+    height: 640px;
+    background: rgba(0, 0, 0, 0.87);
+    position: absolute;
+    margin-left: -200px;
+}
+
+.shadow span {
+    font-size: 16px;
+    margin-left: 220px;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.shadow .especific {
+    margin-top: 100px;
+}
+
+.sobre img {
+    margin-left: -195px;
+    position: absolute
+}
+
+/*Contato*/
+
+.contato {
+    width: 100%;
+    height: 500px;
+    background: black;
+    margin-top: -50px;
+    overflow: visible;
+}
+
+.contato h2 {
+    margin-top: 100px;
+    color:rgb(238, 230, 230);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 50px;
+    letter-spacing: .1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contato span {
+    color:rgb(238, 230, 230);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contato .spann {
+    font-family: 'Noto Sans JP', sans-serif;
+    color:rgb(238, 230, 230);
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.form {
+    margin-top: 120px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    padding: 10px 40px 10px 10px;
+}
+
+.form textarea {
+    width: 336px;
+    height: 120px;
+    padding: 10px 10px 0px 10px;
+}
+
+.form input, .form textarea {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300, lighter;
+    font-size: 20px;
+}
+
+.form button {
+    background: none;
+    color: white;
+    border: none;
+    display: block;
+    margin-left: 271px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    margin-top: 17px;
+    background: white;
+    
+}
+
+.footer h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer p {
+    font-family: 'Noto Sans JP', sans-serif; 
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer a:hover {
+    color: crimson;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .sobre img {
+            min-width: 100%;
+            background: no-repeat center;
+            background-size: cover;
+    }
+
+    .intro-prod {
+        height: 649px;
+    }
+
+    .shadow {
+        overflow: visible;
+        width: 80%;
+    }
+
+    .main-span {
+        margin-top: -300px;
+    }
+
+    .shadow span {
+        font-size: 15px;
+        margin-left: 34.5%;
+    }
+
+    .contato span {
+        overflow: visible;
+        font-size: 15px;
+    }
+
+    .contato .spann {
+        font-size: 15px;
+    }
+
+    .form textarea {
+        width: 336px;
+    }
+
+    .form button {
+        margin-left: 271px;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+
+    .header {
+        position: static;
+        height: 65px;
+        align-items: center;
+    }
+    
+    .logo {
+        margin-left: 70px;
+    }
+
+    .intro-prod {
+        height: 690px;
+    }
+
+    .intro-prod h2 {
+        text-align: center;
+    }
+
+    .shadow {
+        width: 750px;
+    }
+
+    .shadow .main-span {
+        width: 400px;
+        height: 100px;
+        margin-bottom: -20px;
+    }
+
+    .shadow .main-span:nth-child(3) {
+        margin-top: -32px;
+    }
+
+    .shadow span {
+        display: block;
+        font-size: 15px;
+        margin-left: 23%;
+    }
+
+    .contato {
+        height: 1200px;
+    }
+
+
+    .form textarea {
+        width: 335px;
+    }
+
+    .form button {
+        margin-left: 270px;
+    }
+
+    .contato .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact {
+        margin-top: 20px;
+        margin-bottom: -50px;
+    }
+
+    .contato {
+        height: 850px;
+    }
+
+}
