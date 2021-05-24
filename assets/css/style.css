@@ -293,7 +293,7 @@ body {
     .logo {
         margin-left: 70px;
     }
-    
+
     .list {
         text-align: center;
     }
@@ -322,8 +322,13 @@ body {
 
     .shadow span {
         display: block;
-        font-size: 13px;
+        font-size: 14px;
         margin-left: 26%;
+        margin-top: 70px;
+    }
+
+    .shadow span:nth-child(1) {
+        margin-bottom: -70px;
     }
 
     .contato {
