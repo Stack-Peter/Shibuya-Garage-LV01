@@ -293,6 +293,10 @@ body {
     .logo {
         margin-left: 70px;
     }
+    
+    .list {
+        text-align: center;
+    }
 
     .intro-prod {
         height: 690px;
