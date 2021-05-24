@@ -318,21 +318,25 @@ body {
 
     .shadow span {
         display: block;
-        font-size: 15px;
-        margin-left: 23%;
+        font-size: 13px;
+        margin-left: 24%;
     }
 
     .contato {
         height: 1200px;
     }
 
+    .form input {
+        width: 300px;
+    }
+
 
     .form textarea {
-        width: 342px;
+        width: 300px;
     }
 
     .form button {
-        margin-left: 270px;
+        margin-left: 230px;
     }
 
     .contato .container {
