@@ -240,11 +240,19 @@ body {
   }
 
   .logo {
-    margin-left: 68px;
+    margin-left: 62px;
   }
 
   .list {
     text-align: center;
+  }
+
+  .list ul li {
+    margin-left: 0px;
+  }
+  .list ul li:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .intro-prod h2 {
